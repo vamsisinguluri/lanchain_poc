@@ -27,6 +27,10 @@ print(vectors.shape[1])   # size of one vector  768 so we have 8 such vectors
 dim = vectors.shape[1]
 
 
+
+# this is stuff method
+
+
 import faiss
 
 index = faiss.IndexFlatL2(dim)
@@ -48,6 +52,8 @@ distances, I = index.search(svec, k=2)  # k stands for how many similar vectors 
 print(I)  
 
 df.loc[[3,2]]  or df.loc[I[0]]
+
+
 
 
 
