@@ -1,6 +1,8 @@
 """
 
-    install streamlit
+    pip install streamlit langchain-community langchain
+
+    to start app:  python -m streamlit run main.py
 
 """
 

@@ -7,7 +7,7 @@ from langchain_community.chains import SimpleSequentialChain
 from langchain.chains import SequentialChain
 
 
-openapi_key = """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"""
+openapi_key = """"""
 
 os.environ['OPENAI_API_KEY'] = openapi_key
 
